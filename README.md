@@ -7,3 +7,9 @@ find it into folder: InitialGeometricalConfiguration
 the file: GranularShearFlow.restart sets the geometrical info of the simulation: position and radius of each particle
 particles from id 0 to id 479 are those glued at the walls.
 
+Output files format:
+find examples of the output files format into the folder: 
+To perform the coarse-graining, we use the post-processing tool "MercuryCG" provided with the open-source DEM code MercuryDPM. The "discrete" output files must be compatible with the MercuryCG, so that, at each time step, two type of files must be generated (see http://docs.mercurydpm.org/Trunk/db/da1/VisualisingYourResults.html):
+1) .data file: this is composed by a series of N subsequent lines, each providing information for one particle within the system.
+2) .fstat file: this is composed by a series of Nc lines corresponding to each of the Nc particle contacts within the system at the current instant in time.
+
