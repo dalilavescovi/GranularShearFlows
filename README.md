@@ -4,8 +4,9 @@ Details of the problem can be found at: https://on-dem.atlassian.net/wiki/spaces
 
 Initial geometrical configuration:  
 find it into folder: InitialGeometricalConfiguration
-the file: GranularShearFlow.restart sets the geometrical info of the simulation: position and radius of each particle
-particles from id 0 to id 479 are those glued at the walls.
+the file GranularShearFlow.restart sets the geometrical info of the simulation: position and radius of each particle.  
+The total number of particles is 3480.  
+Particles from id 0 to id 479 are those glued at the walls.
 
 Output files format:  
 find examples of the output files format into the folder: outputs_example
