@@ -17,6 +17,7 @@ NOTE: to perform the coarse-graining, we use the post-processing tool "MercuryCG
 NOTE:
 - both file types must share the same base name,
 - at each saving step, one .data file and one .fstat file must be generated, with a number indicating the time step appended after the file extension.
+  
 For example, if the simulation is named “M1_dw1”, the outputs are:
 M1_dw1.data.0000, M1_dw1.data.0001, M1_dw1.data.0002, …, M1_dw1.data.4000
 M1_dw1.fstat.0000, M1_dw1.fstat.0001, M1_dw1.fstat.0002, …, M1_dw1.fstat.4000
