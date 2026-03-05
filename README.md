@@ -6,7 +6,7 @@ Initial geometrical configuration:
 find it into folder: InitialGeometricalConfiguration
 the file GranularShearFlow.restart sets the geometrical info of the simulation: position and radius of each particle.  
 The total number of particles is 3480.  
-Particles from id 0 to id 479 are those glued at the walls.
+Particles from id 1 to id 480 are those glued at the walls.
 
 Output files format:  
 find examples of the output files format into the folder: outputs_example
@@ -19,6 +19,6 @@ NOTE:
 - both file types must share the same base name,
 - at each saving step, one .data file and one .fstat file must be generated, with a number indicating the time step appended after the file extension.  
   
-For example, if the simulation is named “M1_dw1”, the outputs are:  
-M1_dw1.data.0000, M1_dw1.data.0001, M1_dw1.data.0002, …, M1_dw1.data.4000  
-M1_dw1.fstat.0000, M1_dw1.fstat.0001, M1_dw1.fstat.0002, …, M1_dw1.fstat.4000
+For example, if the simulation is named “ShearFlow”, the outputs are:  
+ShearFlow.data.0000, ShearFlow.data.0001, ShearFlow.data.0002, …, ShearFlow.data.4000  
+ShearFlow.fstat.0000, ShearFlow.fstat.0001, ShearFlow.fstat.0002, …, ShearFlow.fstat.4000
