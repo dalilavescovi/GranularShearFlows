@@ -1,4 +1,4 @@
-xMin 0.0 xMax 20.0 yMin 0.0 yMax 10.3923048454133 zMin 0.50 zMax 22.0
+xMin 0.0 xMax 20.0 yMin 0.0 yMax 10.3923048454133 zMin 0.0 zMax 22.0
 Particles 3480
 id	x-position	y-position	z-position	radius
 1	0.5	0.5	0.5	0.5
